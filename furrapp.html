@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SkyFurrDev · En construcción</title>
+<meta name="description" content="Web de SkyFurrDev, creador de Furr, la red social de la comunidad furry. En construcción.">
+<style>
+  :root {
+    --bg: #0E0D13;
+    --card: #17151F;
+    --border: #2A2735;
+    --text: #F3F1F8;
+    --muted: #A9A4B8;
+    --accent: #E07500;
+    --accent-soft: rgba(224, 117, 0, 0.14);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background: radial-gradient(ellipse at 50% 30%, #2a1704 0%, var(--bg) 60%);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px;
+    min-height: 100%;
+  }
+  main {
+    width: 100%;
+    max-width: 460px;
+    text-align: center;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 40px 28px 32px;
+  }
+  .paw { width: 88px; height: 88px; margin: 0 auto 20px; display: block; }
+  .badge {
+    display: inline-block;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid rgba(224, 117, 0, 0.4);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin-bottom: 18px;
+  }
+  h1 { font-size: 28px; margin: 0 0 10px; }
+  p { color: var(--muted); line-height: 1.55; margin: 0 0 8px; font-size: 15px; }
+  .en { font-size: 13px; margin-top: 4px; }
+  .actions { display: flex; flex-direction: column; gap: 10px; margin-top: 26px; }
+  a.btn {
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 13px 16px;
+    border-radius: 14px;
+  }
+  a.primary { background: var(--accent); color: #1a0d00; }
+  a.secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+  a.btn:hover { filter: brightness(1.1); }
+  footer { margin-top: 24px; font-size: 12px; color: var(--muted); }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <svg class="paw" viewBox="0 0 100 100" aria-hidden="true">
+    <g fill="#E07500">
+      <ellipse cx="22" cy="42" rx="11" ry="14" transform="rotate(-20 22 42)"/>
+      <ellipse cx="40" cy="24" rx="11" ry="15" transform="rotate(-6 40 24)"/>
+      <ellipse cx="60" cy="24" rx="11" ry="15" transform="rotate(6 60 24)"/>
+      <ellipse cx="78" cy="42" rx="11" ry="14" transform="rotate(20 78 42)"/>
+      <path d="M50 48c-15 0-26 13-29 24-2 8 4 14 12 13 6-1 11-4 17-4s11 3 17 4c8 1 14-5 12-13-3-11-14-24-29-24z"/>
+    </g>
+  </svg>
+
+  <span class="badge">🚧 En construcción</span>
+  <h1>SkyFurrDev</h1>
+  <p>Estamos preparando esta web. Mientras tanto, ya puedes usar <strong>Furr</strong>, la red social de la comunidad furry. 🐾</p>
+  <p class="en">This site is under construction. Meanwhile, you can already use Furr, the social network for the furry community.</p>
+
+  <div class="actions">
+    <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.furr.app">Descargar Furr en Google Play</a>
+    <a class="btn secondary" href="https://github.com/SkyFurrDev/Furr">Política de privacidad</a>
+  </div>
+
+  <footer>
+    © 2026 SkyFurrDev · <a href="mailto:trabajoericsanchezblanco@gmail.com">Contacto</a>
+  </footer>
+</main>
+</body>
+</html>
